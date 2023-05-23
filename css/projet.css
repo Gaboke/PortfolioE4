@@ -1,0 +1,46 @@
+
+
+.ap_0,
+.ap_1,
+.ap_2,
+.ap_3,
+.ap_4{
+  background-color: white;
+  color: white;
+}
+
+thead th, tbody th, tbody td, tfoot td {
+  background: rgba(0,0,0,0.1);
+  border: 3px solid black;
+}
+
+table {
+  table-layout: auto;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid red;
+}
+
+
+thead th:nth-child(1) {
+  width: 100%;
+  background-color: #343a40;
+  color: white;
+}
+
+
+.zoom{
+    -webkit-transition: all 1s ease; 
+    -moz-transition: all 1s ease; 
+    -ms-transition: all 1s ease; 
+    -o-transition: all 1s ease; 
+    transition: all 1s ease;
+}
+
+.zoom:hover{
+    -webkit-transform:scale(1.05); 
+  -moz-transform:scale(1.05); 
+  -ms-transform:scale(1.05); 
+  -o-transform:scale(1.05); 
+  transform:scale(1.05);
+}
